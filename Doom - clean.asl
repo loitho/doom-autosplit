@@ -37,14 +37,18 @@ isLoading
 
 split
 {
-	return (current.mapName != null && 
-			current.mapName != "" && 
-			old.mapName != current.mapName && 
-			!old.mapName.Contains("menu") && 
-			!old.mapName.Contains("playing") &&
-			!current.mapName.Contains("menu") && 
-			!current.mapName.Contains("playing")
-			);
+	return (current.mapName != null &&
+		current.mapName != "" &&
+		old.mapName != null &&
+		old.mapName != "" &&
+		old.mapName != current.mapName &&
+		!old.mapName.Contains("menu") &&
+		!old.mapName.Contains("playing") &&
+		!old.mapName.Contains("a boss") &&
+		!current.mapName.Contains("menu") &&
+		!current.mapName.Contains("playing") &&
+		!current.mapName.Contains("a boss")
+		);
 }
 
 exit 
@@ -55,7 +59,5 @@ exit
 
 reset
 {
-	//print("RESET");
 	return (false);
-	//return current.mapName.StartsWith("intro") && !current.canStart && !current.mainMenu && current.start && !current.isLoading;
 }
