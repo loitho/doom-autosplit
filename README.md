@@ -31,4 +31,7 @@ Split at each level change : Should be working (90% sure)  /!\ it splits only at
 
 
 
-New features comming soon !
+##Interesting link if you want to play with cheat engine
+
+https://www.solarstrike.net/phpBB3/viewtopic.php?t=65
+http://www.solarstrike.net/phpBB3/viewtopic.php?f=5&t=900
