@@ -1,23 +1,32 @@
-Hi
+# Doom Autosplitter file
 
-Here is a livesplit file for doom
+## What does it do ?
 
-It should be working with the latest version of Doom from steam only if you removed the 
-- gameresources.patch 
-- gameresources.patch.verify
-Files from your DOOM/base/ folder.
-
-Removing those two files will make you able to do one specific jump in the second level (ressource operations)
-
-
-
-actual Features :
-
-Auto start : Should be working  (90 % sure)
-
-Removing loading time : Works (100% sure) 
+ - Auto start : The time will start when doom guy pick up the handgun after exiting his tomb  
+ - Removing loading time
+ - Auto split : it will split when the next level has finised loading
+ - Auto end : As soon as you'll start the glorykill on the spider, the timer will do a final split
 
 Split at each level change : Should be working (90% sure)  /!\ it splits only at the end of the loading screen you get when finishing a level. Not when you push a button.
+
+
+## How to get those value for the next patch ? 
+
+### bossHealth
+
+ - type : *float*
+ - Requirement : You have to be during the bossfight level (not "the well", you have to be facing the spider) 
+ - Default value : 45500
+ - Min value : 1     (the value will be 1 when the boss is during the "glory kill" phase) 
+ 
+ 
+### finalhit
+
+ - type : *byte*
+ - Requirement : You have to be during the bossfight level (not "the well", you have to be facing the spider) 
+ - Default value : 1
+ - value changes to 0 as soon as you start glory killing the spider
+ 
 
 
 
