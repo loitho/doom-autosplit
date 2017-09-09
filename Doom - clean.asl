@@ -8,8 +8,8 @@
 // probably more
 
 //===NOTES AND CHANGELOG===//
-// Loitho 						@09\09\17: Fixed the splitter for auto split on last boss hit 6,1,1,818 - Vulkan only
-//blairmadison11				@02\09\17: Partially updated the splitter for the latest 6,1,1,818, VULKAN only
+// loitho						@09\09\17:	Fixed the splitter for auto split on last boss hit 6,1,1,818 - Vulkan only
+//blairmadison11				@02\09\17:	Partially updated the splitter for the latest 6,1,1,818, VULKAN only
 //Instagibz & blairmadison11	@22\07\17:	Updated the splitter for the latest 6,1,1,513 version, VULKAN only for now. Note: Versioning changed back from 6,1,1,1219 to 6,1,1,513
 //Instagibz						@29\01\17:	Updated the splitter for latest steam-api change
 //Instagibz						@20\12\16:	Updated the splitter for latest 6,1,1,1219 version, VULKAN only for now
